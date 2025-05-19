@@ -87,7 +87,7 @@ const Test = () => {
         <div className="mt-3 w-full h-full gap-10 flex flex-col items-center">
           <div className="flex flex-col gap-[10px] items-center">
             <div className="font-extrabold text-2xl">Articles</div>
-            <Tabs defaultValue="account" className="h-12 flex justify-center">
+            <Tabs defaultValue="generated" className="h-12 flex justify-center">
               <TabsList className="h-full py-[4px] px-1 bg-white text-black ">
                 {/* <TabsTrigger className="px-5" value="account">Account</TabsTrigger>
               <TabsTrigger className="px-5" value="password">Password</TabsTrigger> */}
