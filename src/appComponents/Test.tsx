@@ -88,7 +88,7 @@ const Test = () => {
         <div className="mt-3 w-full h-full gap-10 flex flex-col items-center">
           <div className="flex flex-col gap-[10px] items-center">
             <div className="font-extrabold text-2xl">Articles</div>
-            <div className=" absolute right-0 top-0 md:hidden">
+            <div className=" absolute right-0 top-0 lg:hidden">
               <Select>
                 <SelectTrigger>
                   <SelectContent>
@@ -99,7 +99,7 @@ const Test = () => {
                 </SelectTrigger>
               </Select>
             </div>
-            <Tabs defaultValue="generated" className="h-12 md:w-fit w-full md:flex hidden justify-center">
+            <Tabs defaultValue="generated" className="h-12 md:w-fit w-full lg:flex hidden justify-center">
               <TabsList className="h-full py-[4px] px-1 md:w-fit w-full bg-white text-black ">
                 {/* <TabsTrigger className="px-5" value="account">Account</TabsTrigger>
               <TabsTrigger className="px-5" value="password">Password</TabsTrigger> */}
